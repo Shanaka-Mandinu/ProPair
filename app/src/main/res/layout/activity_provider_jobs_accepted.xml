@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProviderJobsAccepted">
+
+    <TextView
+        android:id="@+id/textView154"
+        android:layout_width="360dp"
+        android:layout_height="220dp"
+        android:background="@drawable/fill_box"
+        android:text="@string/proHomeBox"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="130dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/green"
+        android:text="@string/proJobsAptBtn1"
+        app:layout_constraintBottom_toBottomOf="@+id/textView154"
+        app:layout_constraintStart_toStartOf="@+id/textView154"
+        tools:ignore="VisualLintOverlap,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="130dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/navyblue"
+        android:text="@string/proJobsAptBtn2"
+        app:layout_constraintBottom_toBottomOf="@+id/textView154"
+        app:layout_constraintEnd_toEndOf="@+id/textView154" />
+
+    <TextView
+        android:id="@+id/textView161"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/proJobsNewText4"
+        android:textColor="@color/brown"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView44"
+        app:layout_constraintTop_toTopOf="@+id/textView154" />
+
+    <TextView
+        android:id="@+id/textView162"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/proJobsNewText9"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView44"
+        app:layout_constraintTop_toBottomOf="@+id/textView161" />
+
+    <TextView
+        android:id="@+id/textView163"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/proJobsNewText6"
+        android:textColor="@color/brown"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView154"
+        app:layout_constraintTop_toTopOf="@+id/textView154" />
+
+    <TextView
+        android:id="@+id/textView164"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/proJobsNewText5"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView154"
+        app:layout_constraintTop_toBottomOf="@+id/imageView44" />
+
+    <TextView
+        android:id="@+id/textView165"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="@string/proJobsNewText8"
+        android:textColor="@color/brown"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/textView166"
+        app:layout_constraintTop_toBottomOf="@+id/textView164" />
+
+    <TextView
+        android:id="@+id/textView166"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/proJobsNewText7"
+        android:textColor="@color/brown"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView154"
+        app:layout_constraintTop_toBottomOf="@+id/textView164" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="356dp"
+        android:background="@drawable/custom_circ"
+        android:contentDescription="@string/person1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_20" />
+
+    <TextView
+        android:id="@+id/textView134"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/fill_box"
+        android:text="@string/proHomeBox"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.251" />
+
+    <TextView
+        android:id="@+id/textView135"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/fill_box"
+        android:text="@string/proHomeBox"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <TextView
+        android:id="@+id/textView143"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/proHomeText3"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView134"
+        app:layout_constraintStart_toStartOf="@+id/textView134"
+        app:layout_constraintTop_toTopOf="@+id/textView134" />
+
+    <TextView
+        android:id="@+id/textView144"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/proJobsNewText2"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView135"
+        app:layout_constraintStart_toStartOf="@+id/textView135"
+        app:layout_constraintTop_toTopOf="@+id/textView135" />
+
+    <TextView
+        android:id="@+id/textView145"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/proJobsNewText3"
+        android:textColor="@color/brown"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView135"
+        app:layout_constraintStart_toStartOf="@+id/textView135"
+        app:layout_constraintTop_toBottomOf="@+id/textView144" />
+
+    <TextView
+        android:id="@+id/textView146"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/proHomeText4"
+        android:textColor="@color/brown"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView134"
+        app:layout_constraintStart_toStartOf="@+id/textView134"
+        app:layout_constraintTop_toBottomOf="@+id/textView143" />
+
+    <TextView
+        android:id="@+id/textView142"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/proJobsNewText1"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="100dp"
+        android:backgroundTint="@color/green"
+        android:text="@string/proJobsNewBtn1"
+        android:textColor="@color/brown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="@color/navyblue"
+        android:text="@string/proJobsNewBtn2"
+        android:textColor="@color/ash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15"
+        tools:ignore="TextSizeCheck" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_background"
+        android:elevation="2dp"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/pro_bottom_menu"
+        tools:ignore="VisualLintBottomNav" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

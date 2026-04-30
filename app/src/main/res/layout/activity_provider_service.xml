@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProviderService">
+
+    <TextView
+        android:id="@+id/bck8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/confirm1Back"
+        android:textColor="@color/brown"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText10"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_shape"
+        android:backgroundTint="@color/ash"
+        android:ems="10"
+        android:hint="@string/searchHint"
+        android:inputType="text"
+        android:padding="12dp"
+        android:shadowColor="@color/green"
+        android:textColorHint="@color/brown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.239"
+        tools:ignore="Autofill,LabelFor" />
+
+    <TextView
+        android:id="@+id/textView169"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/setupText1"
+        android:textColor="@color/brown"
+        android:textColorHint="@color/brown"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView170"
+        android:layout_width="348dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/setupText2"
+        android:textColor="@color/brown"
+        android:textColorHint="@color/brown"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView169"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="360dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/setupImg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText10"
+        app:srcCompat="@drawable/img_36" />
+
+    <TextView
+        android:id="@+id/textView171"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/setupText3"
+        android:textColor="@color/brown"
+        android:textColorHint="@color/brown"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView49" />
+
+    <EditText
+        android:id="@+id/editTextText11"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="@string/setupHint1"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="@color/brown"
+        android:textColorHint="@color/brown"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView171"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/navyblue"
+        android:text="@string/setupBtn1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        tools:ignore="VisualLintButtonSize" />
+</androidx.constraintlayout.widget.ConstraintLayout>

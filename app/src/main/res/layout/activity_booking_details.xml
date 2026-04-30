@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookingDetails">
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/p1Text1"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView22"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/p1Text3"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView22"
+        app:layout_constraintTop_toBottomOf="@+id/textView64" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/p1Text4"
+        android:textColor="@color/green"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView22"
+        app:layout_constraintTop_toBottomOf="@+id/textView65"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_circ"
+        android:contentDescription="@string/person1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18"
+        app:srcCompat="@drawable/img_20" />
+
+    <TextView
+        android:id="@+id/bck3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/confirm1Back"
+        android:textColor="@color/brown"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="360dp"
+        android:layout_height="120dp"
+        android:contentDescription="@string/toPay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13"
+        app:srcCompat="@drawable/img_24" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/detailsText1"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/detailsText2"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView67" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/navyblue"
+        android:text="@string/detailsBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="360dp"
+        android:layout_height="90dp"
+        android:contentDescription="@string/payDetails1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18"
+        app:layout_constraintVertical_bias="0.283"
+        app:srcCompat="@drawable/img_25" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="360dp"
+        android:layout_height="90dp"
+        android:contentDescription="@string/payDetails2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24"
+        app:layout_constraintVertical_bias="0.15"
+        app:srcCompat="@drawable/img_26" />
+</androidx.constraintlayout.widget.ConstraintLayout>

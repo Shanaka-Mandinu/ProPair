@@ -1,0 +1,251 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ProPair</string>
+
+    <string name="logo_slogan">logo_slogan</string>
+    <string name="progress_bar">progress_bar</string>
+
+    <string name="onboardingImage1">onboardingImage</string>
+    <string name="load_bar1">load_bar</string>
+    <string name="text1">Welcome to ProPair</string>
+    <string name="text2">Trusted Pros. Right Here.</string>
+    <string name="text3">Find and connect with verified local service providers for everything. We make it easy, reliable, and fast to get the job done.</string>
+    <string name="btn1">Continue</string>
+    <string name="btn2">Skip</string>
+
+    <string name="onboardingImage2">onboardingImage</string>
+    <string name="onboardingImage3">onboardingImage</string>
+    <string name="load_bar2">load_bar</string>
+    <string name="text4">Find local experts and book with confidence</string>
+    <string name="text5">Browse a wide range of trusted service providers in your area. Every provider is verified and reviewed by real users - no guesswork.</string>
+    <string name="btn3">Next</string>
+    <string name="btn4">Skip</string>
+
+    <string name="onboardingImage4">onboardingImage</string>
+    <string name="load_bar3">load_bar</string>
+    <string name="text6">Get it done!</string>
+    <string name="text7">Chat, schedule, and pay securely. All from one app.</string>
+    <string name="btn5">Get Started</string>
+
+    <string name="btn6">Sign Up</string>
+    <string name="btn7">Login</string>
+
+    <string name="bgImage">background</string>
+    <string name="loginText1">Welcome !</string>
+    <string name="loginText2">Email Address</string>
+    <string name="loginHint1">Enter your email</string>
+    <string name="loginText3">Password</string>
+    <string name="loginHint2">Enter your password</string>
+    <string name="loginBtn">Login</string>
+
+    <string name="signup1Text1">Let’s Get Started</string>
+    <string name="load_bar4">load_bar</string>
+    <string name="signupText1">Full Name</string>
+    <string name="signupHint1">Enter your full name</string>
+    <string name="signupText2">Email Address</string>
+    <string name="signupHint2">Enter your email</string>
+    <string name="fillBtn">Fill &amp; Continue</string>
+
+    <string name="signup2Text1">Verify Email</string>
+    <string name="load_bar5">load_bar</string>
+    <string name="sign2Text1">We have sent a verification to your email. Please enter the code below.</string>
+    <string name="verify_code">code</string>
+    <string name="sign2Text2">Verification Code</string>
+    <string name="verifyBtn">Verify &amp; Continue</string>
+
+    <string name="signup3Text1">Almost Done</string>
+    <string name="load_bar6">load_bar</string>
+    <string name="signup3Text2">Create Password</string>
+    <string name="signup3Hint1">Enter your Password</string>
+    <string name="signup3Text3">Confirm Password</string>
+    <string name="signup3Hint2">Re-Enter your Password</string>
+    <string name="createBtn">Create Account</string>
+    <string name="signup3Text4">Primary use of ProPair?</string>
+
+    <string name="cusHomeText1">Good Morning!</string>
+    <string name="cusHomeText2">Matara, Southern Province</string>
+    <string name="cusBtn">Find Services</string>
+    <string name="proBtn">My Business</string>
+    <string name="searchHint">Search Services…</string>
+    <string name="cusHomeText3">Popular Services</string>
+    <string name="services">Popular Services</string>
+    <string name="bookings">Your Bookings</string>
+    <string name="booking1Text1">Electrical Repair</string>
+    <string name="booking1Text2">Paul\'s Wiring</string>
+    <string name="booking1Text3">Today ,11.00 AM</string>
+    <string name="booking2Text1">Garden cleaning</string>
+    <string name="booking2Text2">Cleanex</string>
+    <string name="booking2Text3">Today, 4.00 PM</string>
+
+    <string name="searchMap">map</string>
+    <string name="mapMarker">Map Marker</string>
+    <string name="mapMarker1">Map Marker1</string>
+    <string name="mapMarker2">Map Marker2</string>
+
+    <string name="confirm1Back"> <![CDATA[<]]></string>
+    <string name="confirm1Text1">Booking Confirmation</string>
+    <string name="p1Text1">Cleanex</string>
+    <string name="p1Text2">Jobs completed : 75</string>
+    <string name="p1Text3">Rating : 4.7</string>
+    <string name="p1Text4">Cleaning</string>
+    <string name="person1">person1</string>
+    <string name="selectService">Select Service/s</string>
+    <string name="load_bar7">load_bar</string>
+    <string name="bookBtn1">Fill Details</string>
+    <string name="cleanJob1"> </string>
+    <string name="cleanJob1Text1">Cleaning</string>
+    <string name="cleanJob1Text2">Garden Cleaning</string>
+    <string name="cleanJob1Text3">LKR 1500/hr</string>
+    <string name="cleanJob2Text1">Home Cleaning</string>
+    <string name="cleanJob2Text2">LKR 1300/hr</string>
+
+    <string name="confirm2Back"> <![CDATA[<]]></string>
+    <string name="confirm2Text1">Booking Confirmation</string>
+    <string name="person2">person2</string>
+    <string name="load_bar8">load_bar</string>
+    <string name="bookBtn2">Confirm Booking</string>
+    <string name="confirm2Text2">Booking Title</string>
+    <string name="confirm2Hint1">Eg:Kitchen Plumbing Repair</string>
+    <string name="confirm2Text3">Description</string>
+    <string name="confirm2Hint2">Provide simple description what to do…</string>
+    <string name="confirm2Text4">Schedule Date/ Time</string>
+    <string name="confirm2Hint3">mm/dd/yyyy</string>
+    <string name="confirm2Hint4">Select Time</string>
+
+    <string name="bookingText1">My Bookings</string>
+    <string name="booking1"> </string>
+    <string name="Booking1Text1">Electrical repair </string>
+    <string name="Booking1Text2">Paul ‘s Wiring</string>
+    <string name="Booking1Text3">Today, 11.00 AM</string>
+    <string name="Booking1Btn">Confirmed</string>
+    <string name="Booking2Text1">Math tutoring </string>
+    <string name="Booking2Text2">Math with Max</string>
+    <string name="Booking2Text3">Tomorrow, 2.00 PM</string>
+    <string name="Booking2Btn">Pending</string>
+    <string name="Booking3Text1">Plumbing repair</string>
+    <string name="Booking3Text2">Don’s</string>
+    <string name="Booking3Text3">08/10, 2.00 PM</string>
+    <string name="Booking3Btn">Rejected</string>
+
+    <string name="toPay">toPay</string>
+    <string name="detailsText1">Service Details</string>
+    <string name="detailsText2">Payment Details</string>
+    <string name="detailsBtn">Proceed to Payment</string>
+    <string name="payDetails1">pay1</string>
+    <string name="payDetails2">pay2</string>
+
+    <string name="pay1"> </string>
+    <string name="payText1">Total Amount To Be Paid</string>
+    <string name="payText2">LKR 7750.00</string>
+    <string name="payText3">Choose Payment Method</string>
+    <string name="payBtn">Pay with Card</string>
+    <string name="payImg1">Pay with card</string>
+    <string name="payText4">Card Details</string>
+    <string name="payText5">Holder\'s name</string>
+    <string name="payHint1">Anon</string>
+    <string name="payText6">Card number</string>
+    <string name="payHint2">xxxx xxxx xxxx</string>
+    <string name="payHText7">Expiry date</string>
+    <string name="payHint3">MM/YY</string>
+    <string name="payText8">CVV</string>
+    <string name="payHint4">xxx</string>
+
+    <string name="payImg2">Pay with cash</string>
+    <string name="payBtn2">Pay with Cash</string>
+    <string name="cashText1">Payment Instructions</string>
+    <string name="cashText2">-Have exact amount ready</string>
+    <string name="cashText3">-Pay after service completion</string>
+    <string name="cashText14">-Receipt  will be provided by the service provider</string>
+
+    <string name="paySuccess">Pay success</string>
+    <string name="successText1">Payment Successful</string>
+    <string name="successText2">Amount of LKR 7750.00</string>
+    <string name="successText3">Payment Reference - 00026A</string>
+    <string name="successText4">Date/ Time - 29/06/2025 : 3.34 PM</string>
+    <string name="successBtn">Back to Home</string>
+
+    <string name="msgText1">Messages</string>
+    <string name="msgImg1">msg1</string>
+
+    <string name="profileBtn1">Switch to Provider</string>
+    <string name="profileBtn2">Log Out</string>
+    <string name="profileText1">Mark Paul</string>
+    <string name="profileText2">Member since February,2025</string>
+    <string name="profileText3">Matara, Southern Province</string>
+    <string name="profileText4">Contact Information</string>
+    <string name="profileVec1">mail</string>
+    <string name="profileVec2">phone</string>
+    <string name="profileVec3">join_date</string>
+    <string name="profileVec4">edit</string>
+    <string name="profileVec1Text1">paulmark@email.com</string>
+    <string name="profileVec1Text2">Email Address</string>
+    <string name="profileVec2Text1">+94 xx xxx xxxx</string>
+    <string name="profileVec2Text2">Phone Number</string>
+    <string name="profileVec3Text1">Member since February 2025</string>
+    <string name="profileVec3Text2">Join Date</string>
+    <string name="profileImg">miss</string>
+
+    <string name="profile2Text1">Mark’s Plumbing</string>
+    <string name="profile2Text2">4.8 (45 jobs)</string>
+    <string name="profile2Btn1">Switch to Customer</string>
+    <string name="profile2Btn2">Log Out</string>
+    <string name="profile2Text3"> </string>
+    <string name="profile2Text4">Business Overview</string>
+    <string name="profile2Text5">Total Jobs</string>
+    <string name="profile2Text6">45</string>
+    <string name="profile2Text7">Total Earnings</string>
+    <string name="profile2Text8">LKR 45,000</string>
+    <string name="profileService">Manage your services</string>
+    <string name="profileService2">service</string>
+
+    <string name="proHomeBtn1">Find Services</string>
+    <string name="proHomeBtn2">My Business</string>
+    <string name="proHomeBox"> </string>
+    <string name="proHomeText1">Overview</string>
+    <string name="proHomeText2">Upcoming Jobs</string>
+    <string name="proHomeText3">Today’s bookings</string>
+    <string name="proHomeText4">3</string>
+    <string name="proHomeText5">This week</string>
+    <string name="proHomeText6">LKR 20,000</string>
+    <string name="proHomeText7">Kitchen Repair</string>
+    <string name="proHomeText8">Customer : Jane</string>
+    <string name="proHomeText9">Today, 11.00 AM</string>
+    <string name="proHomeText10">Pipe Installation</string>
+    <string name="proHomeText11">Customer : John</string>
+    <string name="proHomeText12">Tomorrow, 11.00 AM</string>
+    <string name="proHomeStat">stat</string>
+
+
+    <string name="proJobsNewText1">My Jobs</string>
+    <string name="proJobsNewBtn1">New</string>
+    <string name="proJobsNewBtn2">Accepted</string>
+    <string name="proJobsNewText2">Today’s earnings</string>
+    <string name="proJobsNewText3">LKR 4500.00</string>
+    <string name="proJobsNewText4">Sarah Johnson</string>
+    <string name="proJobsNewText5">Kitchen Plumbing Repair</string>
+    <string name="proJobsNewText6">2 hours ago</string>
+    <string name="proJobsNewText7">2025-06-07</string>
+    <string name="proJobsNewText8">10:00 AM</string>
+    <string name="proJobsNewText9">4.8 </string>
+    <string name="proJobsNewBtn3">Reject</string>
+    <string name="proJobsNewBtn4">Accept</string>
+
+    <string name="proJobsAptBtn1">View Details</string>
+    <string name="proJobsAptBtn2">Create Bill</string>
+
+    <string name="proJMsgText1">Messages</string>
+    <string name="proJMsgImg">msg</string>
+    <string name="proJMsgImg2">search</string>
+
+    <string name="setupText1">Set Up Your Services</string>
+    <string name="setupText2">"Select all the services you provide. You can always add or remove services later."</string>
+    <string name="setupImg">service</string>
+    <string name="setupText3">Service Provider Name</string>
+    <string name="setupHint1">Amal’s Electricians</string>
+    <string name="setupBtn1">Complete Setup</string>
+
+
+    <string name="large_text">This is some large text</string>
+    <string name="action_settings">Settings</string>
+
+
+</resources>

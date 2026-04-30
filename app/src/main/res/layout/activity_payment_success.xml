@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentSuccess">
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:layout_marginStart="33dp"
+        android:contentDescription="@string/paySuccess"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_29" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="56dp"
+        android:contentDescription="@string/logo_slogan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView29"
+        app:srcCompat="@drawable/img" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/navyblue"
+        android:text="@string/successBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <TextView
+        android:id="@+id/textView86"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/successText1"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView29"
+        app:layout_constraintVertical_bias="0.719" />
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/successText2"
+        android:textColor="@color/brown"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView86"
+        app:layout_constraintVertical_bias="0.623" />
+
+    <TextView
+        android:id="@+id/textView88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="@string/successText3"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView30" />
+
+    <TextView
+        android:id="@+id/textView89"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/successText4"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView88" />
+</androidx.constraintlayout.widget.ConstraintLayout>

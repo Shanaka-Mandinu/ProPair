@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProPair">
+        <activity
+            android:name=".ProviderService"
+            android:exported="false" />
+        <activity
+            android:name=".ProviderMessages"
+            android:exported="false" />
+        <activity
+            android:name=".ProviderJobsAccepted"
+            android:exported="false" />
+        <activity
+            android:name=".ProviderJobsNew"
+            android:exported="false" />
+        <activity
+            android:name=".ProviderHome"
+            android:exported="false" />
+        <activity
+            android:name=".ProviderProfile"
+            android:exported="false" />
+        <activity
+            android:name=".CustomerProfile"
+            android:exported="false" />
+        <activity
+            android:name=".CustomerMessages"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentSuccess"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentCash"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentCard"
+            android:exported="false" />
+        <activity
+            android:name=".BookingDetails"
+            android:exported="false" />
+        <activity
+            android:name=".CustomerBookings"
+            android:exported="false" />
+        <activity
+            android:name=".BookingConfirm2"
+            android:exported="false" />
+        <activity
+            android:name=".BookingConfirm1"
+            android:exported="false" />
+        <activity
+            android:name=".CustomerSearch"
+            android:exported="false" />
+        <activity
+            android:name=".CustomerHome"
+            android:exported="false" />
+        <activity
+            android:name=".Signup3"
+            android:exported="false" />
+        <activity
+            android:name=".Signup2"
+            android:exported="false" />
+        <activity
+            android:name=".Signup1"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Welcome"
+            android:exported="false" />
+        <activity
+            android:name=".onboarding_3"
+            android:exported="false" />
+        <activity
+            android:name=".onboarding_2"
+            android:exported="false" />
+        <activity
+            android:name=".onboarding_1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

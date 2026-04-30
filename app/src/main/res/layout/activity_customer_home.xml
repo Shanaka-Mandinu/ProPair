@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ash"
+    android:backgroundTint="@color/greyishwhite"
+    tools:context=".CustomerHome">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="90dp"
+            android:text="@string/cusHomeText1"
+            android:textColor="@color/brown"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="@string/cusHomeText2"
+            android:textColor="@color/brown"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="165dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginEnd="40dp"
+            android:backgroundTint="@color/green"
+            android:text="@string/proBtn"
+            android:textColor="@color/brown"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.209"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="165dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="40dp"
+            android:backgroundTint="@color/navyblue"
+            android:text="@string/cusBtn"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.209" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/custom_shape"
+            android:backgroundTint="@color/ash"
+            android:ems="10"
+            android:hint="@string/searchHint"
+            android:inputType="text"
+            android:padding="12dp"
+            android:shadowColor="@color/green"
+            android:textColorHint="@color/brown"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button2"
+            tools:ignore="Autofill,LabelFor" />
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="32dp"
+            android:layout_height="33dp"
+            app:layout_constraintBottom_toBottomOf="@+id/editTextText2"
+            app:layout_constraintEnd_toEndOf="@+id/editTextText2"
+            app:layout_constraintTop_toTopOf="@+id/editTextText2" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/cusHomeText3"
+            android:textColor="@color/brown"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
+
+        <ImageView
+            android:id="@+id/imgServ"
+            android:layout_width="380dp"
+            android:layout_height="210dp"
+            android:layout_marginTop="380dp"
+            android:contentDescription="@string/services"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/img_13" />
+
+        <TextView
+            android:id="@+id/textView158"
+            android:layout_width="390dp"
+            android:layout_height="250dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/fill_box2"
+            android:text="@string/proHomeBox"
+            app:layout_constraintBottom_toBottomOf="@+id/bottomNavigationView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.85"
+            tools:ignore="VisualLintOverlap" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/bookings"
+            android:textColor="@color/brown"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgServ"
+            tools:ignore="VisualLintOverlap" />
+
+        <ScrollView
+            android:id="@+id/scrollView4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:layout_constraintBottom_toBottomOf="@+id/bottomNavigationView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.83">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="370dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/custom_shape"
+                        android:text=""
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/booking1Text1"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        app:layout_constraintStart_toStartOf="@+id/textView27"
+                        app:layout_constraintTop_toTopOf="@+id/textView27" />
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:text="@string/booking1Text2"
+                        android:textColor="@color/brown"
+                        android:textSize="16sp"
+                        app:layout_constraintStart_toStartOf="@+id/textView27"
+                        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:text="@string/booking1Text3"
+                        android:textColor="@color/brown"
+                        android:textSize="16sp"
+                        app:layout_constraintStart_toStartOf="@+id/textView27"
+                        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView500"
+                        android:layout_width="370dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/custom_shape"
+                        android:text=""
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView501"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/booking2Text1"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        app:layout_constraintStart_toStartOf="@+id/textView500"
+                        app:layout_constraintTop_toTopOf="@+id/textView500" />
+
+                    <TextView
+                        android:id="@+id/textView502"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:text="@string/booking2Text2"
+                        android:textColor="@color/brown"
+                        android:textSize="16sp"
+                        app:layout_constraintStart_toStartOf="@+id/textView500"
+                        app:layout_constraintTop_toBottomOf="@+id/textView501" />
+
+                    <TextView
+                        android:id="@+id/textView503"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:text="@string/booking2Text3"
+                        android:textColor="@color/brown"
+                        android:textSize="16sp"
+                        app:layout_constraintStart_toStartOf="@+id/textView500"
+                        app:layout_constraintTop_toBottomOf="@+id/textView502" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bottom_background"
+            android:elevation="2dp"
+            app:itemIconSize="30dp"
+            app:itemIconTint="@drawable/item_selector"
+            app:itemRippleColor="@android:color/transparent"
+            app:labelVisibilityMode="unlabeled"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:menu="@menu/bottom_menu"
+            tools:ignore="VisualLintBottomNav" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

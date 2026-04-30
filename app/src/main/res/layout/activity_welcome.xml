@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="288dp"
+        android:layout_height="288dp"
+        android:layout_marginTop="218dp"
+        android:contentDescription="@string/logo_slogan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="209dp"
+        android:text="@string/btn6"
+        android:textColor="@color/greyishwhite"
+        android:textSize="16sp"
+        app:background="@color/navyblue"
+        app:backgroundTint="@color/navyblue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:outlineProvider="background"
+        android:text="@string/btn7"
+        android:textColor="@color/green"
+        android:textSize="16sp"
+        app:background="@color/navyblue"
+        app:backgroundTint="@color/greyishwhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

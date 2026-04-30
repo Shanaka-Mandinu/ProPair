@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentCash">
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/payText3"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView70" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="360dp"
+        android:layout_height="100dp"
+        android:background="@drawable/box_2"
+        android:text="@string/pay1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/payText1"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView70"
+        app:layout_constraintStart_toStartOf="@+id/textView70"
+        app:layout_constraintTop_toTopOf="@+id/textView70"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/payText2"
+        android:textColor="@color/ash"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView70"
+        app:layout_constraintEnd_toEndOf="@+id/textView70"
+        app:layout_constraintStart_toStartOf="@+id/textView70"
+        app:layout_constraintTop_toBottomOf="@+id/textView73"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/bck6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/confirm1Back"
+        android:textColor="@color/brown"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="340dp"
+        android:layout_height="175dp"
+        android:layout_marginBottom="368dp"
+        android:contentDescription="@string/payImg2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView81"
+        app:srcCompat="@drawable/img_28"
+        tools:ignore="ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/navyblue"
+        android:text="@string/payBtn2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        tools:ignore="VisualLintButtonSize" />
+
+    <TextView
+        android:id="@+id/textView82"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/cashText1"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView28" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/cashText2"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView82" />
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/cashText3"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView83" />
+
+    <TextView
+        android:id="@+id/textView85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/cashText14"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView84" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

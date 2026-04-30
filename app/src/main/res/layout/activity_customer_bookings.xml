@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerBookings">
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="375dp"
+        android:layout_height="110dp"
+        android:background="@drawable/fill_box"
+        android:text="@string/booking1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="375dp"
+        android:layout_height="110dp"
+        android:background="@drawable/fill_box"
+        android:text="@string/booking1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="375dp"
+        android:layout_height="110dp"
+        android:background="@drawable/fill_box"
+        android:text="@string/booking1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/bookingText1"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/Booking1Text1"
+        android:textColor="@color/brown"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/textView26"
+        app:layout_constraintTop_toTopOf="@+id/textView26" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/Booking1Text2"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView26"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/Booking1Text3"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView26"
+        app:layout_constraintTop_toBottomOf="@+id/textView54" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="@color/navyblue"
+        android:text="@string/Booking1Btn"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView26"
+        app:layout_constraintTop_toTopOf="@+id/textView26" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/Booking2Text1"
+        android:textColor="@color/brown"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/textView56"
+        app:layout_constraintTop_toTopOf="@+id/textView56" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/Booking2Text2"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView56"
+        app:layout_constraintTop_toBottomOf="@+id/textView57" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/Booking2Text3"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView56"
+        app:layout_constraintTop_toBottomOf="@+id/textView58" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="@color/yellow"
+        android:text="@string/Booking2Btn"
+        android:textColor="@color/navyblue"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView56"
+        app:layout_constraintTop_toTopOf="@+id/textView56" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/Booking3Text1"
+        android:textColor="@color/brown"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/textView60"
+        app:layout_constraintTop_toTopOf="@+id/textView60" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/Booking3Text2"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView60"
+        app:layout_constraintTop_toBottomOf="@+id/textView61" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/Booking3Text3"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView60"
+        app:layout_constraintTop_toBottomOf="@+id/textView62" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="@color/design_default_color_error"
+        android:text="@string/Booking3Btn"
+        android:textColorHighlight="@color/navyblue"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView60"
+        app:layout_constraintTop_toTopOf="@+id/textView60" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_background"
+        android:elevation="2dp"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/bottom_menu" />
+</androidx.constraintlayout.widget.ConstraintLayout>

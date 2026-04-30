@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProviderHome">
+
+    <TextView
+        android:id="@+id/textView167"
+        android:layout_width="380dp"
+        android:layout_height="237dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="209dp"
+        android:background="@drawable/fill_box2"
+        android:text="@string/proHomeBox"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView2"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView3"
+        app:layout_constraintStart_toStartOf="@+id/scrollView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView118"
+        tools:ignore="VisualLintOverlap" />
+
+    <TextView
+        android:id="@+id/textView113"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="90dp"
+        android:text="@string/cusHomeText1"
+        android:textColor="@color/brown"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView114"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="@string/cusHomeText2"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView113" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="165dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="40dp"
+        android:backgroundTint="@color/green"
+        android:text="@string/proHomeBtn1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="165dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="@color/navyblue"
+        android:text="@string/proHomeBtn2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/textView115"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/proHomeText1"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button16" />
+
+    <TextView
+        android:id="@+id/textView117"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="140dp"
+        android:text="@string/proHomeText2"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView115"
+        tools:ignore="VisualLintOverlap" />
+
+    <TextView
+        android:id="@+id/textView118"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/fill_box"
+        android:text="@string/proHomeBox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView115" />
+
+    <TextView
+        android:id="@+id/textView119"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/fill_box"
+        android:text="@string/proHomeBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView115" />
+
+    <TextView
+        android:id="@+id/textView120"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/proHomeText3"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView118"
+        app:layout_constraintStart_toStartOf="@+id/textView118"
+        app:layout_constraintTop_toTopOf="@+id/textView118" />
+
+    <TextView
+        android:id="@+id/textView126"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/proHomeText4"
+        android:textColor="@color/brown"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView118"
+        app:layout_constraintStart_toStartOf="@+id/textView118"
+        app:layout_constraintTop_toBottomOf="@+id/textView120" />
+
+    <TextView
+        android:id="@+id/textView127"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/proHomeText5"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView119"
+        app:layout_constraintStart_toStartOf="@+id/textView119"
+        app:layout_constraintTop_toTopOf="@+id/textView119" />
+
+    <TextView
+        android:id="@+id/textView128"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/proHomeText6"
+        android:textColor="@color/brown"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView119"
+        app:layout_constraintStart_toStartOf="@+id/textView119"
+        app:layout_constraintTop_toBottomOf="@+id/textView127" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomNavigationView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/textView129"
+                    android:layout_width="360dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/fill_box"
+                    android:text="@string/proHomeBox"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView130"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/proHomeText7"
+                    android:textColor="@color/brown"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="@+id/textView129"
+                    app:layout_constraintTop_toTopOf="@+id/textView129" />
+
+                <TextView
+                    android:id="@+id/textView131"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/proHomeText8"
+                    android:textColor="@color/brown"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="@+id/textView129"
+                    app:layout_constraintTop_toBottomOf="@+id/textView130" />
+
+                <TextView
+                    android:id="@+id/textView132"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/Booking2Text3"
+                    android:textColor="@color/brown"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="@+id/textView129"
+                    app:layout_constraintTop_toBottomOf="@+id/textView131" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/textView156"
+                    android:layout_width="360dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/fill_box"
+                    android:text="@string/proHomeBox"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView157"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/proHomeText10"
+                    android:textColor="@color/brown"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="@+id/textView156"
+                    app:layout_constraintTop_toTopOf="@+id/textView156" />
+
+                <TextView
+                    android:id="@+id/textView159"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/proHomeText11"
+                    android:textColor="@color/brown"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="@+id/textView156"
+                    app:layout_constraintTop_toBottomOf="@+id/textView157" />
+
+                <TextView
+                    android:id="@+id/textView160"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/proHomeText12"
+                    android:textColor="@color/brown"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="@+id/textView156"
+                    app:layout_constraintTop_toBottomOf="@+id/textView159" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="180dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="247dp"
+        android:layout_marginBottom="102dp"
+        android:contentDescription="@string/proHomeStat"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/img_34" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_background"
+        android:elevation="2dp"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/pro_bottom_menu"
+        tools:ignore="VisualLintBottomNav" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

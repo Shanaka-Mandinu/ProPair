@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerSearch">
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/searchMap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_16"
+        tools:ignore="ImageContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_shape"
+        android:backgroundTint="@color/ash"
+        android:ems="10"
+        android:hint="@string/searchHint"
+        android:inputType="text"
+        android:padding="12dp"
+        android:shadowColor="@color/green"
+        android:textColorHint="@color/brown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16000003"
+        tools:ignore="Autofill,LabelFor" />
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="32dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextText3"
+        app:layout_constraintEnd_toEndOf="@+id/editTextText3"
+        app:layout_constraintTop_toTopOf="@+id/editTextText3"
+        app:layout_constraintVertical_bias="0.51" />
+
+    <ImageButton
+        android:id="@+id/imgBtn1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="592dp"
+        android:layout_marginEnd="88dp"
+        android:background="@drawable/fill_box"
+        android:backgroundTint="@color/green"
+        android:contentDescription="@string/mapMarker"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_17" />
+
+    <ImageButton
+        android:id="@+id/imgbtn2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="412dp"
+        android:layout_marginEnd="312dp"
+        android:background="@drawable/fill_box"
+        android:backgroundTint="@color/green"
+        android:contentDescription="@string/mapMarker1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_17"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="104dp"
+        android:background="@drawable/fill_box"
+        android:backgroundTint="@color/green"
+        android:contentDescription="@string/mapMarker2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_18"
+        tools:ignore="ImageContrastCheck" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_background"
+        android:elevation="2dp"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/bottom_menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

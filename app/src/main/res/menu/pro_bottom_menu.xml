@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pro_dash"
+        android:icon="@drawable/baseline_dashboard_24"
+        android:title="Dashboard"/>
+    <item
+        android:id="@+id/pro_jobs"
+        android:icon="@drawable/baseline_calendar_today_24"
+        android:title="Jobs"/>
+    <item
+        android:id="@+id/pro_msg"
+        android:icon="@drawable/baseline_message_24"
+        android:title="Messages"/>
+    <item
+        android:id="@+id/pro_profile"
+        android:icon="@drawable/baseline_person_24"
+        android:title="Profile"/>
+</menu>

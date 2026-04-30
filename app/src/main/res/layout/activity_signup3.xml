@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup3">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-15dp"
+        android:layout_marginBottom="14dp"
+        android:contentDescription="@string/bgImage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/img_8"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="724dp"
+        android:text="@string/signup3Text1"
+        android:textColor="@color/ash"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.200"
+        tools:ignore="UnknownIdInLayout" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="88dp"
+        android:layout_height="20dp"
+        android:contentDescription="@string/load_bar6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/imageView13"
+        app:layout_constraintVertical_bias="0.3"
+        app:srcCompat="@drawable/img_12" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="130dp"
+        android:text="@string/signup3Text2"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/signup3Hint1"
+        android:inputType="textPassword"
+        android:textColorHint="@color/brown"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:text="@string/signup3Text3"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword3"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/signup3Hint2"
+        android:inputType="textPassword"
+        android:textColorHint="@color/brown"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <Button
+        android:id="@+id/crtBtn"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/navyblue"
+        android:text="@string/createBtn"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75"
+        tools:ignore="VisualLintButtonSize" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
